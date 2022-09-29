@@ -1,4 +1,4 @@
-
+//simple simulation for facebook creating posts.
 import * as React from 'react'
 import { Text, View, TextInput, TouchableOpacity, ScrollView, Image, Modal, Switch, ScrollView } from 'react-native'
 import AsyncStorage from '@react-native-community/async-storage'
