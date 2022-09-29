@@ -1,4 +1,3 @@
-
 import * as React from 'react'
 import { Text, StyleSheet, View, Image, ScrollView, TextInput, TouchableOpacity, Modal, StatusBar, ImageBackground } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome5'
