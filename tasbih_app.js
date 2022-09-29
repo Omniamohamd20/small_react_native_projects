@@ -1,3 +1,4 @@
+//simple tasbih app.
 import React, { Component } from 'react'
 import { Text, StyleSheet, View, Image, ScrollView, TextInput, TouchableOpacity, ImageBackground, Vibration } from 'react-native'
 import {
@@ -13,9 +14,6 @@ export default class Tasbih extends React.Component {
     {
       count: 0,
       language: 'لا إله لا الله',
-      //  duration: 5000,
-      //  pattern: [1000, 2000, 1000, 2000]
-
     }
   }
   plusFun() { this.setState({ count: this.state.count + 1 }) }
@@ -33,8 +31,7 @@ export default class Tasbih extends React.Component {
 
         }}>
           <Text style={{
-            color: '#fff', fontSize: 20, paddingRight: '5%',
-            //  borderBottomColor:'#DDD',borderBottomWidth:0.2
+            color: '#fff', fontSize: 20, paddingRight: '5%'
           }}>السبحة</Text>
         </View>
         <View
@@ -97,10 +94,7 @@ export default class Tasbih extends React.Component {
                 onPress={
                   () => {
                     this.plusFun();
-                    // Vibration.vibrate(this.state.duration)
-
-
-                  }
+                   }
                 }
                 style={{
                   alignSelf: 'center', elevation: 10,
