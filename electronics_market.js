@@ -1,4 +1,4 @@
-
+//this is a simple electronics market for admin ,hich allow him to edit price & name of a product. 
 import * as React from 'react'
 import { Text, StyleSheet, View, Image, ScrollView, TextInput, TouchableOpacity, Modal, StatusBar, AsyncStorage } from 'react-native'
 import CheckBox from '@react-native-community/checkbox';
